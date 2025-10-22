@@ -3,10 +3,10 @@ name: "hello to develop branch"
 on: 
    push:
       branches:
-      - develop
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "hello to develop branch"
-        run: echo "hello to develop branch"
+      - name: "hello to main branch"
+        run: echo "hello to main branch"
