@@ -6,7 +6,7 @@ on:
       - develop
 jobs:
   build:
-    runs-on: ubuntu latest version
+    runs-on: ubuntu-latest
     steps:
       - name: "hello to develop branch"
         run: echo "hello to develop branch"
