@@ -1,9 +1,9 @@
 ---
-name: "hello to develop branch"
+name: "hello to main branch"
 on: 
-   push:
+   pull_request:
       branches:
-      - main
+        - main
 jobs:
   build:
     runs-on: ubuntu-latest
